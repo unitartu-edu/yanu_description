@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="yanu">
 
-  <!-- panda -->
+  <!-- panda and its hand-->
 
   <xacro:include filename="$(find franka_description)/robots/panda/panda.urdf.xacro"/>
   <xacro:include filename="$(find franka_description)/robots/common/hand.urdf.xacro"/>
@@ -16,13 +16,13 @@
       <geometry>
         <mesh filename="package://yanu_description/meshes/yanu.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-	<material name="green"/>
+      <material name="green"/>
     </visual>
-      <collision>
-        <geometry>
-          <mesh filename="package://yanu_description/meshes/yanu.stl" scale="0.001 0.001 0.001"/>
-        </geometry>
-      </collision>
+    <collision>
+      <geometry>
+        <mesh filename="package://yanu_description/meshes/yanu.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
   </link>
 
   <joint name="yanu_base_to_panda" type="fixed">
