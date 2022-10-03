@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>yanu_description</name>
+  <version>0.0.0</version>
+  <description>The yanu_description package</description>
+
+  <maintainer email="ims@todo.todo">ims</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>  
+  <exec_depend>franka_description</exec_depend>
+
+  <export>
+
+  </export>
+</package>
