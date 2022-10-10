@@ -8,6 +8,8 @@ ROS URDF description package for [Yanu](https://yanu.ai) service robot that cont
 
 ```git clone https://github.com/unitartu-edu/yanu_description```
 
+```sudo apt update```
+
 ```sudo apt install ros-noetic-franka-description```
 
 ```catkin build```
