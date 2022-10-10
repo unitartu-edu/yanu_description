@@ -14,8 +14,12 @@ ROS URDF description package for [Yanu](https://yanu.ai) service robot that cont
 
 ```catkin build```
 
+```source ~/catkin_ws/devel/setup.bash```
+
 ## Visualizing the robot in RViz
 Open a terminal window and navigate to the ```yanu_description/urdf``` folder
+
+```roscd yanu_description/urdf```
 
 ```roslaunch urdf_tutorial display.launch model:=yanu.urdf.xacro```
 
