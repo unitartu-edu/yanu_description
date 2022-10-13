@@ -36,4 +36,4 @@ Open a terminal window and navigate to the ```yanu_description/urdf``` folder
 </tr>
 </table>
 
-Completed with the support by IT Acadamy Programme of Education and Youth Board of Estonia.
+Completed with the support by IT Academy Programme of Education and Youth Board of Estonia.
